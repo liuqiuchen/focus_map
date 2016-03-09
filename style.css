@@ -34,10 +34,10 @@ div.title{
 	text-align: left;
 	line-height: 50px;
 	background: -webkit-linear-gradient(top,#adcaff,#d2e2ff,#ebf2ff); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(top,#adcaff,#d2e2ff,#ebf2ff); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(top,#adcaff,#d2e2ff,#ebf2ff); /* Firefox 3.6 - 15 */
-    background: linear-gradient(top,#adcaff,#d2e2ff,#ebf2ff); /* 标准的语法 */
-    border-radius: 18px 18px 0 0;
+        background: -o-linear-gradient(top,#adcaff,#d2e2ff,#ebf2ff); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(top,#adcaff,#d2e2ff,#ebf2ff); /* Firefox 3.6 - 15 */
+        background: linear-gradient(top,#adcaff,#d2e2ff,#ebf2ff); /* 标准的语法 */
+        border-radius: 18px 18px 0 0;
 }
 div.title h1{
 	margin-left: 20px;
