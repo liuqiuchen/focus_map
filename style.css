@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background: url("img/bg.jpeg") no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+
+@media screen and (max-width: 1680px) {
+	body{
+		background-size: 1680px 945px;
+	}
+}
+
+div.content{
+	text-align: center;
+}
+div.img_wap{
+	width: 600px;
+	height: 400px;
+	background: #fff;
+	margin: 150px auto 0 auto;
+	border-radius: 20px;
+	border: 1px solid #adcaff;
+}
+div.title{
+	width: 100%;
+	height: 50px;
+	text-align: left;
+	line-height: 50px;
+	background: -webkit-linear-gradient(top,#adcaff,#d2e2ff,#ebf2ff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(top,#adcaff,#d2e2ff,#ebf2ff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(top,#adcaff,#d2e2ff,#ebf2ff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top,#adcaff,#d2e2ff,#ebf2ff); /* 标准的语法 */
+    border-radius: 18px 18px 0 0;
+}
+div.title h1{
+	margin-left: 20px;
+	font-size: 20px;
+	font-family: "Microsoft Yahei";
+	font-weight: normal;
+	color: #666;
+}
+div.img{
+	width: 500px;
+	height: 281px;
+	border: 3px solid #828282;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+div.footer{
+	margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
