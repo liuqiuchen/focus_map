@@ -21,13 +21,20 @@ function getIndex(_this){
     }
     _this.setAttribute('class','now');
 
-    //setInterval实现动画效果
-
+    //setInterval实现切换时的动画效果
 
 }
 
-
-
+//setInterval()实现自动切换效果
+var imgIndex = 0;
+setInterval(function (){
+    imgIndex++;
+    if(imgIndex >= 5){
+        imgIndex = 0;
+    }
+    imgList.style.left = (-imgWidth*imgIndex) + 'px';
+    console.log(imgIndex);
+}, 3000);
 
 
 
