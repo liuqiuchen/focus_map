@@ -10,22 +10,26 @@
 <div class="content">
     <div class="img_wap">
         <div class="title"><h1>FocusMap</h1></div>
-        <div class="img">
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
+        <div class="map_wrap">
+            <div class="img">
+                <ul id="img_list">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="dot">
+                <ul id="dot_list"><li onclick="getIndex(this);" data-index="0"></li><li onclick="getIndex(this);" data-index="1"></li><li onclick="getIndex(this);" data-index="2"></li><li onclick="getIndex(this);" data-index="3"></li><li onclick="getIndex(this);" data-index="4"></li></ul>
+            </div>
         </div>
-        <div class="dot"></div>
     </div>        
 </div>
 
 <div class="footer">footer</div>
 
-
+<script src="main.js"></script>
 
 </body>
 </html>
