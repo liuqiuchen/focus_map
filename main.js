@@ -19,6 +19,8 @@ var imgList = $('img_list');
 var dotList = $('dot_list');
 //每个图片的宽度
 var imgWidth = 500;
+//图片切换间隔
+var changeSpace = 3000;
 var interval2;
 
 //dot被点击后切换img
@@ -42,10 +44,8 @@ function getIndex(_this){
         }
         imgList.style.left = (-imgWidth*newImgIndex) + 'px';
         clearClassNow(dotList.childNodes[newImgIndex]);
-    }, 3000);
+    }, changeSpace);
 
-
-    //setInterval实现切换时的动画效果
 
 }
 
@@ -58,13 +58,15 @@ var interval = setInterval(function (){
     if(imgIndex >= 5){
         imgIndex = 0;
     }
+
     imgList.style.left = (-imgWidth*imgIndex) + 'px';
+
     //console.log(imgIndex);
 
     clearClassNow(dotList.childNodes[imgIndex]);
 
 
-}, 3000);
+}, changeSpace);
 
 
 
